@@ -179,39 +179,23 @@
             <div class="container">
               <div id="mc_embed_signup">
                 <form action="https://gmail.us14.list-manage.com/subscribe/post?u=a4c906441e186c972fa87c63e&amp;id=9587254a8d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                  <div id="mc_embed_signup_scroll">
                   <div class="row">
-                    <div class="mc-field-group col-sm-12 col-md-5 col-lg-5 form-group m-2">
-                      <label for="mce-EMAIL"><span class="asterisk">*</span>
+                    <div class=" col-sm-12 col-md-5 col-lg-5 form-group m-2">
                       </label>
-                      <input type="email" value="" name="EMAIL"  placeholder="email..." required  class="form-control" id="mce-EMAIL">
+                      <input type="email" value="" name="email"  placeholder="email..." required  class="form-control email" id="email">
                     </div>
-                    <div class="mc-field-group col-sm-12 col-md-5 col-lg-5 form-group m-2">
-                      <label for="mce-NAME"><span class="asterisk">*</span>
+                    <div class="col-sm-12 col-md-5 col-lg-5 form-group m-2">
                     </label>
-                      <input type="text" class="form-control" value="" name="NAME" placeholder="name..." required id="mce-NAME">
+                      <input type="text" class="form-control name" value="" name="NAME" placeholder="name..." required id="name">
                     </div>
                   </div>  
                   <div class="row">
                     <div class="col-md-2 col-sm-12 col-lg-2">
-                        
                     </div>
-                    <div class="mc-field-group col-md-8 col-sm-12 col-lg-8 form-group justify-content-center">
-                      <label for="mce-MMERGE2"></label>
-                      <textarea type="text" value="" name="MMERGE2" class="form-control" rows="10" placeholder="message..." id="mce-MMERGE2"></textarea>
-                    </div>
-                      <div id="mce-responses" class="clear foot">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                      </div>    
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a4c906441e186c972fa87c63e_9587254a8d" tabindex="-1" value=""></div>
-                            <div class="optionalParent">
-                                <div class="clear foot">
-                                    <input type="submit" value="Submit" name="submit" id="mc-embedded-subscribe" class="button">
-                  </div>            
-                            </div>
+                    <div class="col-md-8 col-sm-12 col-lg-8 form-group justify-content-center">
+                      <textarea type="text" value=""  class="form-control textarea" id="textarea"  placeholder="Your message here ..." style="height:15vh;"></textarea>
+                    </div>  
                         </div>
-                  </div>
                 </form>
                 </div>
             </div>
@@ -404,21 +388,29 @@
             padding-bottom: 5%;
         }
 
-        .mce-NAME {
+        #name {
             background-color: transparent;
         }
 
-        .mce-NAME::placeholder {
+        .name::placeholder {
+            color: white;
+            font-size: 1em;
+        }
+        #email {
+            background-color: transparent;
+        }
+
+        .email::placeholder {
             color: white;
             font-size: 1em;
         }
 
-        #mce-MMERGE2 {
+        #textarea {
             background-color: transparent;
             row-gap: 20%;
         }
 
-        #mce-MMERGE2::placeholder {
+        #textarea::placeholder {
             color: white;
             font-size: 1em;
         }

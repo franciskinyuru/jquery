@@ -61,9 +61,136 @@
               the pieces you need.
             </p>
           </div>
+          <div class="container">
+            <div class="row" id="what-we-do">
+              <h2 class="heading">WHAT WE DO</h2>
+              <div class="col-md-4" id="design">
+                <div class="design-icon-show">
+                  <img
+                    src="./assets/services_icons/design_icon.png"
+                    alt="design-icon"
+                  />
+                  <p><strong>DESIGN</strong></p>
+                </div>
+                <div class="design-icon-hide">
+                  <p><strong>DESIGN</strong></p>
+                  <p>
+                    Our design offers a full range of services including branding
+                    strategy, interaction and visual design and user experience
+                    testing.
+                  </p>
+                  <p>
+                    Throughout your project, our designers create and implement visual
+                    design and workflows, solicit user feedback and work with you to
+                    make sure what gets built is what is needed.
+                  </p>
+                </div>
+                
+              </div>
+              <div class="col-md-4" id="development">
+                <div class="dev-icon-show">
+                  <img src="./assets/services_icons/dev_icon.png" alt="dev icon" />
+                  <p><strong>DEVELOPMENT</strong></p>
+                </div>
+                <div class="dev-icon-hide">
+                  <p><strong>DEVELOPMENT</strong></p>
+                  <p>
+                    Our engineers are fluent in the latest enterprise, mobile and web
+                    development technologies.
+                  </p>
+                  <p>
+                    They collaborate with your team to write and improve code on a
+                    daily basis, udsing proven practices such as test-driven
+                    development and pair programming.
+                  </p>
+                </div>
+                
+              </div>
+    
+              <div class="col-md-4" id="product-management">
+                <div class="product-icon-show">
+                  <img
+                    src="./assets/services_icons/product_icon.png"
+                    alt="product icon"
+                  />
+                  <p><strong>PRODUCT MANAGEMENT</strong></p>
+                </div>
+                <div class="product-icon-hide">
+                  <p><strong>PRODUCT MANAGEMENT</strong></p>
+                  <p>
+                    Planning and development is iterative. Because we are constantly
+                    coding and testing, the products we build are always ready to go
+                    live.
+                  </p>
+                  <p>
+                    This iterative process allows for changes as business requirements
+                    evolve.
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+          </div> 
+          <div id="portfolio-section">
+
+            <h2 class="heading2">PORTFOLIO</h2>
+          </div>
+          <div class="flex-container" >
+            <div class="row">
+    
+              <div class="col-md-3" id="work1">
+                <img class="work-image" src="./assets/portfolio/work4.jpg" alt="dark image" />
+                <p class="image_text1">Black</p>
+              </div>
+    
+              <div class="col-md-3" id="work2">
+                <img class="work-image"
+                  src="./assets/portfolio/work2.jpg"
+                  alt="orange polygonal lines"
+                />
+                <p class="image_text2">Polygonal lines</p>
+              </div>
+    
+              <div class="col-md-3" id="work3">
+                <img class="work-image"  src="./assets/portfolio/work3.jpg" alt="Ontario security" />
+                <p class="image_text3">Ontario Security</p>
+              </div>
+    
+              <div class="col-md-3" id="work4">
+                <img class="work-image" src="./assets/portfolio/work1.jpg" alt="news clips" />
+                <p class="image_text4">Jim Carey</p>
+              </div>
+            </div>
+            <div class="row second_row">
+    
+              <div class="col-md-3" id="work5">
+                <img class="work-image" src="./assets/portfolio/work5.jpg" alt="have a good day" />
+                <p class="image_text5">Good Day</p>
+              </div>
+    
+              <div class="col-md-3" id="work6">
+                <img class="work-image" src="./assets/portfolio/work6.jpg" alt="calculator" />
+                <p class="image_text6">Calculator</p>
+              </div>
+    
+              <div class="col-md-3" id="work7">
+                <img class="work-image" src="./assets/portfolio/work7.jpg" alt="burned logo" />
+                <p class="image_text7">Burned logo</p>
+              </div>
+    
+              <div class="col-md-3" id="work8">
+                <img class="work-image" src="./assets/portfolio/work8.jpg" alt="Giraffe restaurant" />
+                <p class="image_text8">Giraffe Restaurant</p>
+              </div>
+            </div>
+          </div> 
        
   
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+
 <style>
     #delani {
   background-image: url("../assets/backgrounds/h_img.jpg");
@@ -100,15 +227,31 @@
   padding-top: 5%;
   padding-bottom: 5%;
 }
-
-
-
-/* 320px — 480px: Mobile devices
-481px — 768px: iPads, Tablets
-769px — 1024px: Small screens, laptops
-1025px — 1200px: Desktops, large screens
-1201px and more —  Extra large screens, TV */
+#what-we-do{
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+#heading{
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+.flex-container {
+  display: flex;
+  align-content: center;
+  gap: 15px;
+  max-width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
 </style>
+   <script>
     
+   </script> 
 </body>
 </html>

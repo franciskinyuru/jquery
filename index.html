@@ -177,51 +177,43 @@
         <div id="contacts">
             <h2 class="heading2">CONTACT US</h2>
             <div class="container">
-                <div id="mc_embed_signup">
-                    <form
-                        action="https://gmail.us14.list-manage.com/subscribe/post?u=a4c906441e186c972fa87c63e&amp;id=9587254a8d"
-                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                        target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <div class="row">
-                                <div class="mc-field-group col">
-                                    <label for="mce-EMAIL"><span class="asterisk">*</span>
-                                    </label>
-                                    <input type="email" value="" name="EMAIL" placeholder="Enter your email..."
-                                        class="required email" id="mce-EMAIL">
-                                </div>
-                                <div class="mc-field-group vol">
-                                    <label for="mce-NAME"><span class="asterisk">*</span>
-                                    </label>
-                                    <input type="text" value="" name="NAME" placeholder="Enter your name..."
-                                        class="required" id="mce-NAME">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="mc-field-group col-md-12">
-                                    <label for="mce-MMERGE2"></label>
-                                    <textarea type="text" value="" name="MMERGE2" class="" rows="10"
-                                        placeholder="message..." id="mce-MMERGE2"></textarea>
-                                </div>
-
-                                <div id="mce-responses" class="clear foot">
-                                    <div class="response" id="mce-error-response" style="display:none"></div>
-                                    <div class="response" id="mce-success-response" style="display:none"></div>
-                                </div>
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                        name="b_a4c906441e186c972fa87c63e_9587254a8d" tabindex="-1" value=""></div>
-                                <div class="optionalParent">
-                                    <div class="clear foot">
-                                        <input type="submit" value="Submit" name="submit" id="mc-embedded-subscribe"
-                                            class="button">
-                                    </div>
-                                </div>
+              <div id="mc_embed_signup">
+                <form action="https://gmail.us14.list-manage.com/subscribe/post?u=a4c906441e186c972fa87c63e&amp;id=9587254a8d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll">
+                  <div class="row">
+                    <div class="mc-field-group col-sm-12 col-md-6 col-lg-6">
+                      <label for="mce-EMAIL"><span class="asterisk">*</span>
+                      </label>
+                      <input type="email" value="" name="EMAIL"  placeholder="email..."  class="required email" id="mce-EMAIL">
+                    </div>
+                    <div class="mc-field-group col-sm-12 col-md-6 col-lg-6">
+                      <label for="mce-NAME"><span class="asterisk">*</span>
+                    </label>
+                      <input type="text" value="" name="NAME" placeholder="name..." class="required" id="mce-NAME">
+                    </div>
+                  </div>  
+                  <div class="row">
+                    <div class="mc-field-group col-md-12 col-sm-12 col-lg-12">
+                      <label for="mce-MMERGE2"></label>
+                      <textarea type="text" value="" name="MMERGE2" class="" rows="10" placeholder="message..." id="mce-MMERGE2"></textarea>
+                    </div>
+                  
+                      <div id="mce-responses" class="clear foot">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                      </div>    
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a4c906441e186c972fa87c63e_9587254a8d" tabindex="-1" value=""></div>
+                            <div class="optionalParent">
+                                <div class="clear foot">
+                                    <input type="submit" value="Submit" name="submit" id="mc-embedded-subscribe" class="button">
+                  </div>            
                             </div>
                         </div>
-                    </form>
+                  </div>
+                </form>
                 </div>
             </div>
-        </div>
+          </div>
 
         <div class="container-fluid mt-3">
             <div class="text-center d-flex justify-content-center" style="background-color: white">
@@ -525,12 +517,6 @@
                 $(".image_text8").hide();
             });
         });
-
-
-
-
-
-
         $('#mc-embedded-subscribe').click(
             function (e) {
                 let name = document.getElementById('mce-NAME').value;

@@ -11,24 +11,40 @@
 <body>
     <div class="container-fluid">
         <div class="" id="delani">
-            <img src="assets/backgrounds/h_img.jpg" alt="" class="img-fluid">
-            <div class="text-white" id="centered">
-                <img src="assets/logo/logo.png" alt="">
-                <h3>WELCOME</h3>
-                <h4>TO DELANI STUDIO</h4>
-                <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-                <img src="assets/mouse_click.png" alt="" class="img-fluid mt-5" style="">
-            </div>
+            <div class="logo">
+                <img src="./assets/logo/logo.png" alt="D logo" />
+              </div>
+        
+              <h1><strong>WELCOME</strong></h1>
+              <h1><strong>TO DELANI STUDIO</strong></h1>
+              <p>
+                <strong
+                  >AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN
+                  ENVIRONMENT</strong
+                >
+              </p>
+              <div class="mouse">
+                <img src="./assets/mouse_click.png" alt="computer mouse icon" />
+              </div>
         </div>
-        <div class="flex-fill">
-            <h1 class="text-center">ABOUT US</h1>
-            <p class="text-center">When you work with us you are part of a team of
-                commited collaborators. all aspects of our software 
-                development process are intergrated, interactive and agile </p>
-            <p class="text-center">Our approach unifies design, development and product management to create exceptional products</p>
-            <p class="text-center">We start each project by understanding your business goals, the user's needs and the product requirements</p>
-            <p class="text-center">Then we help translate them into effective and elegant solutions</p>
-        </div>
+        <div class="row" id="about">
+            <h2 class="about">ABOUT US</h2>
+            <p>
+              When you work with us, you are part of a team of committed
+              collaborators. All aspects of our software development process are
+              intergrated, <br />
+              interactive and agile
+            </p>
+            <p>
+              Our approach unifies design, development and product management to
+              create exceptional products.
+            </p>
+            <p>
+              We start each project by understanding your business goals, the user's
+              needs and the product's requirements.
+            </p>
+            <p>Then we help translate them into effective and elegant solutions.</p>
+          </div>
 
         <div class="" id="services">
             <img src="assets/backgrounds/s_image.jpg" alt="" class="img-fluid">
@@ -45,26 +61,36 @@
     </div>
 <style>
     #delani {
-  position: relative;
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
   text-align: center;
+  padding-top: 15%;
+  font-family: "Gabriela", serif;
+  padding-bottom: 3%;
+  font-weight: 500;
 }
-    #centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.logo {
+  padding-bottom: 3%;
 }
 
-#services {
-  position: relative;
+.mouse{
+  padding-top: 4%;
+}
+#about{
   text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
-    #service {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
 </style>
     
 </body>

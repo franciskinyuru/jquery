@@ -177,8 +177,7 @@
         <div id="contacts">
             <h2 class="heading2">CONTACT US</h2>
             <div class="container">
-              <div id="mc_embed_signup">
-                <form action="https://gmail.us14.list-manage.com/subscribe/post?u=a4c906441e186c972fa87c63e&amp;id=9587254a8d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <form action="https://gmail.us14.list-manage.com/subscribe/post?u=a4c906441e186c972fa87c63e&amp;id=9587254a8d" method="post" id="form">
                   <div class="row">
                     <div class=" col-sm-12 col-md-5 col-lg-5 form-group m-2">
                       </label>
@@ -195,9 +194,13 @@
                     <div class="col-md-8 col-sm-12 col-lg-8 form-group justify-content-center">
                       <textarea type="text" value=""  class="form-control textarea" id="textarea"  placeholder="Your message here ..." style="height:15vh;"></textarea>
                     </div>  
-                        </div>
-                </form>
+
                 </div>
+                <div class="text-center">
+                    <button type="button" id="submit" class="btn btn-secondary m-5">Submit</button>
+                </div>
+                </form>
+               
             </div>
           </div>
 
@@ -511,9 +514,9 @@
                 $(".image_text8").hide();
             });
         });
-        $('#mc-embedded-subscribe').click(
+        $('#submit').click(
             function (e) {
-                let name = document.getElementById('mce-NAME').value;
+                let name = document.getElementById('name').value;
                 alert('Hello' + ' ' + name + ' ' + 'we have recieved your email, thankyou for reaching out.')
                 e.preventDefault();
             }

@@ -26,12 +26,7 @@ Delani Studio is a website for a company that works in design and programming.
 
 3. Getting the data(input) from the form element.
 
-4. add an EventListner, to validate the form
-   *INPUT: ""(blank)
-   *OUTPUT: "alert error message.
-
-
-5. create function to display the output.
+4. create function to display the output.
 
 ## Known Bugs
 

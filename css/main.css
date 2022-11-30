@@ -32,7 +32,7 @@ html {
 }
 
 #services {
-    background-image: url("./assets/backgrounds/s_image.jpg");
+    background-image: url("../assets/backgrounds/s_image.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@ html {
 
 #contacts {
     color: white;
-    background-image: url("./assets/backgrounds/c_image.jpg");
+    background-image: url("../assets/backgrounds/c_image.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

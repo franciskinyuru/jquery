@@ -1,4 +1,9 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ubuntu:wght@300&display=swap");
+
+html {
+  scroll-behavior: auto;
+}
 #delani {
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-position: center center;

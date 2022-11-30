@@ -5,7 +5,7 @@ html {
   scroll-behavior: auto;
 }
 #delani {
-    background-image: url("h_img.jpg");
+    background-image: url("./h_img.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@ html {
 }
 
 #services {
-    background-image: url("s_image.jpg");
+    background-image: url("./s_image.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@ html {
 
 #contacts {
     color: white;
-    background-image: url("c_image.jpg");
+    background-image: url("./c_image.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

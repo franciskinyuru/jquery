@@ -10,10 +10,10 @@ Delani Studio is a website for a company that works in design and programming.
 
 ## Setup/Installation Requirements
 
-- clone this repository to an empty folder in your computer (here)[]
+- clone this repository to an empty folder in your computer (here)[https://github.com/franciskinyuru/jquery]
 - open the index.html in a browser
 - To make changes to the program, open the folder in a text editor of your choice.
-- open the website (here)[]
+- open the website (here)[https://franciskinyuru.github.io/jquery/]
 
 ## Behaviour Driven Development
 1. Add a toggle method to toggle between hiding and showing elements.
